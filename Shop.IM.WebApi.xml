@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.IM.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Shop.IM.WebApi.SwaggerGenConfig.DeploySwaggerGen(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            配置api说明文档
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.Reg(Shop.IM.WebApi.Models.RegVM)">
+            <summary>
+            向环信IM注册用户
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.GetFriends(System.String)">
+            <summary>
+            列出环信IM朋友
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.MakeFriend(Shop.IM.WebApi.Models.MakeFriendVM)">
+            <summary>
+            添加环信IM朋友
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.DelRelation(Shop.IM.WebApi.Models.DelRelationVM)">
+            <summary>
+            解除环信IM好友关系
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.OfflineMsgCount(System.String)">
+            <summary>
+            环信IM离线消息数
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.ChatHistory(Shop.IM.WebApi.Models.ChatHistoryVM)">
+            <summary>
+            环信IM历史记录 （有问题）
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.SendMsg(Shop.IM.WebApi.Models.SendMsgVM)">
+            <summary>
+            向好友发送消息（当前只能发文本消息）
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.DelUser(System.String)">
+            <summary>
+            删除用户（单个）
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.RestPwd(Shop.IM.WebApi.Models.ResetPwdVM)">
+            <summary>
+            修改用户密码
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.RestNickName(Shop.IM.WebApi.Models.ResetNickNameVM)">
+            <summary>
+            修改用户昵称
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.OfflineUsr(System.Int64)">
+            <summary>
+            用户下线
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.CheckUsrStatus(System.Int64)">
+            <summary>
+            用户是否在线
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.DeActivateUsr(System.Int64)">
+            <summary>
+            禁用用户
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Shop.IM.WebApi.Controllers.MemberController.ActivateUsr(System.Int64)">
+            <summary>
+            启用用户
+            </summary>
+            <param name="UsrId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Shop.IM.WebApi.AddAuthTokenHeaderParameter">
+            <summary>
+            this class is for swagger to generate AuthToken Header filed on swagger UI
+            </summary>
+        </member>
+        <member name="P:Shop.IM.WebApi.Models.ChatHistoryVM.Size">
+            <summary>
+            一次取多少条
+            </summary>
+        </member>
+        <member name="P:Shop.IM.WebApi.Models.ChatHistoryVM.Cursor">
+            <summary>
+            游标
+            </summary>
+        </member>
+        <member name="P:Shop.IM.WebApi.Models.MakeFriendVM.OriginUsrId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:Shop.IM.WebApi.Models.MakeFriendVM.RemoteUsrId">
+            <summary>
+            朋友id
+            </summary>
+        </member>
+        <member name="P:Shop.IM.WebApi.Models.SendMsgVM.MsgType">
+            <summary>
+            0：txt 1:img 2:audio 3:video
+            </summary>
+        </member>
+    </members>
+</doc>

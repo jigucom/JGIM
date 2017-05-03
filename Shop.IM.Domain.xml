@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shop.IM.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Secret">
+            <summary>
+            "DRGM8OZrEeO1vafuJSo2IjHBeKlIhDp0GCnFu54xOF3M6KLr", //secret在上传图片后会返回，只有含有secret才能够下载此图片 || 视频缩略图尺寸
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Addr">
+            <summary>
+            "西城区西便门桥 ",//要发送的地址
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Lat">
+            <summary>
+            39.9053,//纬度
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Lng">
+            <summary>
+            116.36302,//经度 
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Thumb">
+            <summary>
+            "https://a1.easemob.com/easemob-demo/chatdemoui/chatfiles/67279b20-7f69-11e4-8eee-21d3334b3a97",
+            上传视频缩略图远程地址，在上传视频缩略图后会返回UUID
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Thumb_Secret">
+            <summary>
+            "ZyebKn9pEeSSfY03ROk7ND24zUf74s7HpPN1oMV-1JxN2O2I",//secret在上传缩略图后会返回
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Type">
+            <summary>
+            txt、img、loc、audio、video、file
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.FileName">
+            <summary>
+             图片名称 "test1.jpg" || 语音名称 || 视频文件名称 || 文件名称
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.File_Length">
+            <summary>
+            图片附件大小（单位：字节） 128827 || 语音附件大小（单位：字节）|| 视频附件大小（单位：字节） || 文件附件大小（单位：字节）
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Url">
+            <summary>
+            "https://a1.easemob.com/easemob-demo/chatdemoui/chatfiles/65e54a4a-fd0b-11e3-b821-ebde7b50cc4b", 
+            上传图片消息地址，在上传图片成功后会返回UUID ||上传语音远程地址，在上传语音后会返回UUID || 上传视频远程地址，在上传视频后会返回UUID || 上传文件远程地址，在上传文件后会返回UUID  
+            </summary>
+        </member>
+        <member name="P:Shop.IM.Domain.ValueToObject.PayloadBody.Length">
+            <summary>
+             10, 语音时间（单位：秒）||视频播放长度
+            </summary>
+        </member>
+    </members>
+</doc>
